@@ -9,17 +9,17 @@ on:
 env:
   # Postgres
   POSTGRESQL_VERSION: 13.1
-  POSTGRESQL_DB: amigoscode
+  POSTGRESQL_DB: fullstack_db
   POSTGRESQL_USER: postgres
   POSTGRESQL_PASSWORD: password
   # Java
   JAVA_VERSION: 1.15
   # DockerHub
-  DOCKER_HUB_USERNAME: amigoscode
+  DOCKER_HUB_USERNAME: cazadore
   # AWS & Elastic Bean Stalk
-  AWS_REGION: eu-west-1
-  EB_ENVIRONMENT_NAME: Springbootreactfullstack-env
-  EB_APPLICATION_NAME: springboot-react-fullstack
+  AWS_REGION: eu-north-1
+  EB_ENVIRONMENT_NAME: Fullstack-spring-react-env
+  EB_APPLICATION_NAME: fullstack-spring-react
   EB_DEPLOYMENT_PACKAGE: elasticbeanstalk/docker-compose.yml
 
 jobs:
